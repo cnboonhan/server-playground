@@ -1,0 +1,2 @@
+- name: Install Base Dependencies
+  include_tasks: install_dependencies.yaml

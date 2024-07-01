@@ -1,0 +1,10 @@
+---
+- name: Install Base Dependencies
+  ansible.builtin.dnf:
+    name: 
+      - vim
+      - curl
+      - wget
+      - podman
+    state: latest
+  become: true
