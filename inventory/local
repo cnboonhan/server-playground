@@ -1,2 +1,5 @@
 [cloud]
 cloud_server.local
+
+[bastion]
+127.0.0.1
